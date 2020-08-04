@@ -1,6 +1,10 @@
 # Bliss 12.8 Weabooized (With-DSB)
 The file inside this repo is just the source, if you want the instant way go to readme.
 
+Supported All Devices, as long as it has Bliss 12.8, but you might customize the Settings.apk by yourself.
+
+Tested on Lavender
+
 
 
 # Instant way:
