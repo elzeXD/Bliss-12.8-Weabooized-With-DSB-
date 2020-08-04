@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/bliss_version" android:key="bliss_version_screen" settings:keywords="@string/keywords_bliss_version"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <Preference android:layout="@layout/vincent_blank" android:key="place_holder" android:order="-500" />
+    <Preference android:layout="@layout/vincent_logo_moona" android:key="anu_anuan" />
+    <Preference android:layout="@layout/bliss_logo" android:key="bliss_logo" />
+    <Preference android:title="バージョン Bliss Roms" android:key="bliss_version" android:summary="@string/summary_placeholder" settings:controller="com.android.settings.deviceinfo.bliss.BlissVersionPreferenceController" settings:enableCopying="true" />
+	<Preference android:title="バージョン Android" android:key="os_firmware_version" android:summary="@string/summary_placeholder" settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController" settings:enableCopying="true" />
+	<Preference android:title="至福のビルド `Shifuku no birudo" android:key="os_build_number" android:summary="@string/summary_placeholder" settings:controller="com.android.settings.deviceinfo.firmwareversion.SimpleBuildNumberPreferenceController" settings:enableCopying="true" />
+    <Preference android:title="メンテナ `Mentena" android:key="maintainer" android:summary="@string/summary_placeholder" settings:controller="com.android.settings.deviceinfo.bliss.BlissMaintainerPreferenceController" settings:enableCopying="true" />
+    <Preference android:title="端末 `Tanmatsu" android:key="bliss_device" android:summary="@string/summary_placeholder" settings:controller="com.android.settings.deviceinfo.bliss.BlissDevicePreferenceController" settings:enableCopying="true" />
+    <Preference android:title="Android `セキュリティパッチレベル" android:key="security_key" settings:controller="com.android.settings.deviceinfo.firmwareversion.SecurityPatchLevelPreferenceController" settings:enableCopying="true" />
+    <Preference android:title="建設日 `Kensetsu-bi" android:key="bliss_build_date" android:summary="@string/summary_placeholder" settings:controller="com.android.settings.deviceinfo.bliss.BlissBuildDatePreferenceController" settings:enableCopying="true" />
+    <Preference android:title="建設種類 `Kensetsu-surui" android:key="bliss_build_type" android:summary="@string/summary_placeholder" settings:controller="com.android.settings.deviceinfo.bliss.BlissBuildTypePreferenceController" settings:enableCopying="true" />
+    <Preference android:title="@string/changelog_title" android:key="changelog" android:summary="@string/changelog_summary" android:fragment="com.android.settings.deviceinfo.bliss.Changelog" />
+</PreferenceScreen>

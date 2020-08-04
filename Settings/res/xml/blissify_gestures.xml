@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/blissify_gestures_title" android:key="gestures_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:lineage="http://schemas.android.com/apk/res/lineageos.platform">
+    <Preference android:layout="@layout/gestures_header" android:key="bliss_header" />
+    <lineageos.preference.LineageSystemSettingSwitchPreference android:icon="@drawable/ic_doubletap" android:title="@string/status_bar_double_tap_to_sleep_title" android:key="double_tap_sleep_gesture" android:summary="@string/status_bar_double_tap_to_sleep_summary" android:defaultValue="true" />
+    <com.bliss.support.preferences.SystemSettingSwitchPreference android:icon="@drawable/ic_doubletap" android:title="@string/double_tap_sleep_anywhere_title" android:key="double_tap_sleep_lockscreen" android:summary="@string/double_tap_sleep_anywhere_summary" android:defaultValue="true" />
+    <com.bliss.support.preferences.SystemSettingSwitchPreference android:icon="@drawable/ic_swipe_to_screenshot" android:title="@string/three_finger_gesture" android:key="three_finger_gesture" android:summary="@string/three_finger_gesture_summary" android:defaultValue="false" />
+    <Preference android:icon="@drawable/ic_pixelgestures" android:title="@string/blissify_pixel_gestures_title" android:key="pixel_category" android:summary="@string/pixelgestures_summary" android:fragment="com.blissroms.blissify.fragments.gestures.PixelGestures" />
+    <PreferenceCategory android:icon="@drawable/ic_bliss_themes" android:title="DSB Settings" android:key="qs_tile_theming">
+    <Preference android:layout="@layout/gestures_dsb" android:key="bliss_header" />
+       <com.bliss.support.preferences.SystemSettingSwitchPreference android:title="Bilah Status Dinamis" android:key="DYNAMIC_STATUS_BAR_STATE" android:summary="Perbarui latar belakang bilah status secara otomatis" />
+       <com.bliss.support.preferences.SystemSettingSwitchPreference android:title="Bilah Navigasi Dinamis" android:key="DYNAMIC_NAVIGATION_BAR_STATE" android:summary="Perbarui latar belakang bilah navigasi secara otomatis" />
+       <com.bliss.support.preferences.SystemSettingSwitchPreference android:title="Gradien Bilah Status" android:key="DYNAMIC_SYSTEM_BARS_GRADIENT_STATE" android:summary="Hamparan gradien pada bilah status" />
+       <com.bliss.support.preferences.SystemSettingSwitchPreference android:title="Bilah Ikon Tint" android:key="UI_COLOR" android:summary="Gunakan Warna bilah status Dinamis sebagai Bilah Ikon Navigasi" />
+       <com.bliss.support.preferences.SystemSettingSwitchPreference android:title="Penggelapan Bilah Status" android:key="DYNAMIC_STATUS_BAR_FILTER_STATE" android:summary="Hamparan filter gelap pada bilah status" />
+       <com.bliss.support.preferences.SystemSettingSwitchPreference android:title="Bilah Ikon Abu-abu" android:key="ABU_ABU" android:summary="Gunakan warna bilah status dinamis abu-abu" />
+	   
+	   <!-- ENGLISH -->
+	   <!-- <com.bliss.support.preferences.SystemSettingSwitchPreference android:title="Dynamic Status Bar" android:key="DYNAMIC_STATUS_BAR_STATE" android:summary="Automatically update the background of the status bar" /> -->
+       <!-- <com.bliss.support.preferences.SystemSettingSwitchPreference android:title="Dynamic Navigation Bar" android:key="DYNAMIC_NAVIGATION_BAR_STATE" android:summary="Automatically update the background of the navigation bar" /> -->
+       <!-- <com.bliss.support.preferences.SystemSettingSwitchPreference android:title="Statusbar Color Tint" android:key="UI_COLOR" android:summary="Use Statusbar Dynamic Color as NavigationBar Icon Tint" /> -->
+       <!-- <com.bliss.support.preferences.SystemSettingSwitchPreference android:title="Gradien Status Bar" android:key="DYNAMIC_SYSTEM_BARS_GRADIENT_STATE" android:summary="Overlay a gradient on the system bars" /> -->
+       <!-- <com.bliss.support.preferences.SystemSettingSwitchPreference android:title="Darkened Status Bar" android:key="DYNAMIC_STATUS_BAR_FILTER_STATE" android:summary="Overlay a darkening filter on the status bar" /> -->
+       <!-- <com.bliss.support.preferences.SystemSettingSwitchPreference android:title="Silver Mode" android:key="ABU_ABU" android:summary="Automatically change the dark intensity to Silver" /> -->
+    </PreferenceCategory>
+</PreferenceScreen>
