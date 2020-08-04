@@ -5,7 +5,7 @@ The file inside this repo is just the source, if you want the instant way go to 
 
 # Instant way:
 Just click in the image below:
-<p><a href="https://bit.ly/39WHp1m"> <img src="https://github.com/elzeXD/Bliss-12.8-Weabooized-With-DSB-/blob/master/QueenMoona.png" alt="Download ZIP" /></a></p>
+<p><a href="https://bit.ly/39WHp1m"> <img src="https://raw.githubusercontent.com/elzeXD/Bliss_12.8_Weabooized/master/QueenMoona.png" alt="Download ZIP" /></a></p>
 
 # How to:
 1. extract zip
